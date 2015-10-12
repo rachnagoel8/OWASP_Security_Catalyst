@@ -1,0 +1,20 @@
+create table users (userid varchar2(50), fname varchar2(50),sname varchar2(50),password varchar2(50),email varchar2(50),designation varchar2(50),department varchar2(50),dob varchar2(50),role varchar2(50),securityquestion varchar2(100),securityanswer varchar2(100),profilepic varchar2(100));
+---------
+
+create table courses (name varchar2(50),description varchar2(50),trainer varchar2(50),coordinator varchar2(50),manager varchar2(50),startdate varchar2(50),duration varchar2(50));
+----------------
+create table course_user_map (courseid varchar2(50),userid varchar2(50));
+
+--------------
+create table tms_log(name varchar2(50), action varchar2(50), page varchar2(50),systemdate varchar2(50),ip varchar2(50))
+------------------------
+------------------
+------------
+------------
+
+create table users_secure (userid varchar2(50), fname varchar2(50),sname varchar2(50),password varchar2(50),email varchar2(50),designation varchar2(50),department varchar2(50),dob varchar2(50),role varchar2(50),securityquestion varchar2(100),securityanswer varchar2(100),profilepic varchar2(100));
+---------
+
+create table courses_secure (name varchar2(50),description varchar2(50),trainer varchar2(50),coordinator varchar2(50),manager varchar2(50),startdate varchar2(50),duration varchar2(50));
+----------------
+create table course_user_map_secure (courseid varchar2(50),userid varchar2(50));
