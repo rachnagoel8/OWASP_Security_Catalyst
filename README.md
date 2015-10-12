@@ -45,7 +45,7 @@ Install a local Tomcat server (We use Tomcat 7)
 -> Click next and add "TMS_VULNERABLE" to the list of configured applications
 -> Finish
 
-4. Right Click on the webgoat project within eclipse -> Run As -> Run on server 
+4. Right Click on the project within eclipse -> Run As -> Run on server 
 
 Point your browser to http://localhost:8080/TMS_VULNERABLE
 ** Note - When running in eclipse, the default url will be lowercase "TMS_VULNERABLE"
