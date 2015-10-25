@@ -54,9 +54,9 @@ Install a local Tomcat server (We use Tomcat 7)
 -> Finish
 
 4. Right Click on the project within eclipse -> Run As -> Run on server 
+5. Execute the Queries mentioned in scripts.txt
 
 Point your browser to http://localhost:8080/TMS_VULNERABLE
-** Note - When running in eclipse, the default url will be lowercase "TMS_VULNERABLE"
 
 ------------------------------------------------------------------
 Option 2: Using the  TMS_VULNERABLE Folder Directly
@@ -65,8 +65,11 @@ Option 2: Using the  TMS_VULNERABLE Folder Directly
 Windows:
 
 1. Download and install Java 1.6 and Tomcat 7 if needed
-2. Download the TMS_VULNERABLE and README file from:
+2. Download the TMS_VULNERABLE and README file and scripts.txt from:
     - https://github.com/rachnagoel8/OWASP_Security_Catalyst/tree/TMS-JAVA-INSECURE
-3. Copy TMS_VULNERABLE.war to <tomcat>/webapps/TMS_VULNERABLE.war
-4. Start the tomcat server (default is usually port 8080)
-5. Browse to http://localhost:8080/TMS_VULNERABLE
+3. Copy TMS_VULNERABLE to <tomcat>/webapps/
+4. Execute the Queries mentioned in scripts.txt
+5. Start the tomcat server (default is usually port 8080)
+6. Browse to http://localhost:8080/TMS_VULNERABLE
+7. Login to the TMS application using the USer ID and password you created in the table.
+
