@@ -16,12 +16,6 @@ is Training Management. Please note, we have try to inject OWASP Top 10 vulnerab
 in this application. This is intentional. You are encouraged to try and 
 discover as many issues as possible.
 
-
-OWASP_Security_Catalyst/TMS_VULNERABLE 1.0
-October/12/2015
-Home Page:    https://www.owasp.org/index.php/OWASP_Security_Catalyst
-Source Code:  https://github.com/rachnagoel8/OWASP_Security_Catalyst/tree/TMS-JAVA-INSECURE
-
 Thank you for downloading TMS_VULNERABLE from OWASP_Security_Catalyst!
 
 This program is the demonstration of the implementation of 
