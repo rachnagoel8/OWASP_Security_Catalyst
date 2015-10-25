@@ -1,11 +1,26 @@
-**********
-**********          OWASP_Security_Catalyst/TMS_VULNERABLE 1.0
-**********          October/12/2015
-**
-**  Home Page:    https://www.owasp.org/index.php/OWASP_Security_Catalyst
-**  Source Code:  https://github.com/rachnagoel8/OWASP_Security_Catalyst/tree/TMS-JAVA-INSECURE
-**
-**********
+---------------------------------
+OWASP Security Catalyst  
+---------------------------------
+
+OWASP Security Catalyst (TMS-JAVA-INSECURE) is a Vulnerable Web 
+Application developed in JAVA/MySQL or JAVA/ORACLE. Its main goal is to 
+help security professionals to test their skills and tools in a 
+legal environment, help web developers better understand the 
+processes of securing web applications and to aid both students & 
+teachers to learn about web application security in a controlled 
+class room environment.
+
+The aim of OWASP Security Catalyst (TMS-JAVA-INSECURE) version is to practice some of 
+the most common web vulnerability using a simple straightforward web application that 
+is Training Management. Please note, we have try to inject OWASP Top 10 vulnerabilties 
+in this application. This is intentional. You are encouraged to try and 
+discover as many issues as possible.
+
+
+OWASP_Security_Catalyst/TMS_VULNERABLE 1.0
+October/12/2015
+Home Page:    https://www.owasp.org/index.php/OWASP_Security_Catalyst
+Source Code:  https://github.com/rachnagoel8/OWASP_Security_Catalyst/tree/TMS-JAVA-INSECURE
 
 Thank you for downloading TMS_VULNERABLE from OWASP_Security_Catalyst!
 
@@ -17,7 +32,6 @@ and can be used for Hands-on practice for application VAPT.
 
 You can find more information about TMS_VULNERABLE at:
 https://www.owasp.org/index.php/OWASP_Security_Catalyst
-
 
 ---------------------------------
 Prerequisites for Developers  
@@ -50,17 +64,15 @@ Install a local Tomcat server (We use Tomcat 7)
 Point your browser to http://localhost:8080/TMS_VULNERABLE
 ** Note - When running in eclipse, the default url will be lowercase "TMS_VULNERABLE"
 
-
 ------------------------------------------------------------------
-Option 2: Using the  TMS_VULNERABLE.war
+Option 2: Using the  TMS_VULNERABLE Folder Directly
 ------------------------------------------------------------------
 
 Windows:
 
 1. Download and install Java 1.6 and Tomcat 7 if needed
-2. Download the TMS_VULNERABLE.war and README file from:
+2. Download the TMS_VULNERABLE and README file from:
     - https://github.com/rachnagoel8/OWASP_Security_Catalyst/tree/TMS-JAVA-INSECURE
 3. Copy TMS_VULNERABLE.war to <tomcat>/webapps/TMS_VULNERABLE.war
 4. Start the tomcat server (default is usually port 8080)
 5. Browse to http://localhost:8080/TMS_VULNERABLE
-
