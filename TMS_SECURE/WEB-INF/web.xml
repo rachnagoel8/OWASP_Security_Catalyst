@@ -7,17 +7,17 @@
 	
 	<context-param>
 		<param-name>url</param-name>
-		<param-value>jdbc:oracle:thin:@cfq96.comfin.ge.com:1521:cfq96</param-value>
+		<param-value>jdbc:oracle:oci8:@localhost:1521:XE</param-value>
 	</context-param>
 
 	<context-param>
 		<param-name>username</param-name>
-		<param-value>pvv</param-value>
+		<param-value>hr</param-value>
 	</context-param>
 
 	<context-param>
 		<param-name>password</param-name>
-		<param-value>bnx73cxty</param-value>
+		<param-value>asdf</param-value>
 	</context-param>
 
 </web-app>
