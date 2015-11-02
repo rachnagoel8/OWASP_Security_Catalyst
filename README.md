@@ -59,10 +59,11 @@ Windows:
 
 1. Download and install Java 1.6 and Tomcat 7 if needed
 2. Download the TMS_SECURE and README file and scripts.txt from:
-    - https://github.com/rachnagoel8/OWASP_Security_Catalyst/tree/TMS-JAVA-INSECURE
+    - https://github.com/rachnagoel8/OWASP_Security_Catalyst/tree/TMS-JAVA-SECURE
 3. Copy TMS_SECURE to <tomcat>/webapps/
 4. Execute the Queries mentioned in scripts.txt
 5. Start the tomcat server (default is usually port 8080)
 6. Browse to http://localhost:8080/TMS_SECURE
-7. Login to the TMS application using the USer ID and password you created in the table.
+7. Login to the TMS application using the User ID and password you created in the table.
+(Username is admin and password is secure123)
 
